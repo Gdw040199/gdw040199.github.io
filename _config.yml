@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Guan Dawei"
+  pronouns         : "he/him"  
+  bio              : "I am an undergraduate from Beijing Jiaotong University. My research direction is computer vision, generative AI on Multimedia."
+  location         : "Beijing, China"
+  employer         : "Beijing Jiaotong University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "guand3841@gmail.com" 
 
   # Academic websites
   academia         : # URL
