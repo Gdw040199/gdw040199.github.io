@@ -1,0 +1,14 @@
+---
+title: "VariGAN: Enhancing Image Style Transfer via UNet Generator, Depthwise Discriminator, and LPIPS Loss in Adversarial Learning Framework"
+collection: publications
+category: manuscripts
+permalink: /publication/VariGAN
+excerpt: 'Image style transfer is a challenging task that has gained significant attention in recent years due to its growing complexity. Training is typically performed using paradigms offered by GAN-based image style transfer networks. Cycle-based training methods provide
+an approach for handling unpaired data. Nevertheless, achieving high transfer quality remains a challenge with these methods due to the simplicity of the employed network. The purpose of this research is to present VariGAN, a novel approach that incorporates three additional strategies to optimize GAN-based image style transfer: (1) Improving the quality of transferred images by utilizing an effective UNet generator network in conjunction with a context-related feature extraction module. (2) Optimizing the training process while reducing dependency on the generator through the use of a depthwise discriminator. (3) Introducing LPIPS loss to further refine the loss function and enhance the overall generation quality of the framework. Through a series of experiments, we demonstrate that the VariGAN backbone exhibits superior performance across diverse content and style domains. VariGAN improved class IoU by 236% and participant identification by 195% compared to CycleGAN.'
+date: 2025-04-22
+venue: 'Sensors'
+paperurl: 'http://gdw040199.github.io/files/VariGAN.pdf'
+citation: 'Guan, D.; Lin, X.; Zhang, H.; Zhou, H. VariGAN: Enhancing Image Style Transfer via UNet Generator, Depthwise Discriminator, and LPIPS Loss in Adversarial Learning Framework. Sensors 2025, 25, 2671. https://doi.org/10.3390/s25092671'
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
