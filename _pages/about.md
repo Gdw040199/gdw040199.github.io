@@ -15,14 +15,14 @@ Academic Interaction
 ======
 My work during my undergraduate years benefited from the guidance and assistance of the following professors, who were my important collaborators. In March 2024, I was an academic intern in [Assi. Prof. Li Wei](https://faculty.swjtu.edu.cn/liweileev/zh_CN/index.htm) research group at Southwest Jiaotong University. In June of the same year, I started a __major innovation project__ with [Porf. Bai Huihui](https://faculty.bjtu.edu.cn/8181/) from [the Institute of Information Science](http://iis.bjtu.edu.cn/) at Beijing Jiaotong University. During my undergraduate years, my supervisor was [Asso. Prof. Zhou Hang](https://faculty.bjtu.edu.cn/eaie/8139.html) from the School of Electronic Information Engineering. __I am extremely grateful to the above-mentioned Porfessors for their help and guidance to me!__
 
-Getting started
+News!
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2025.01.23 :fire::fire: Our work __"ClimaWeather: Enhancing Degraded Image Restoration by Selective Kernel Attention and Local Enhance Feed Forward Block via Transformer"__ is published in IEEE Xplore! [[View Paper]](https://ieeexplore.ieee.org/document/10846015/authors#authors)
+
+2025.04.22 :fire::fire: The work guided by Asso.Prof Zhou Hang __"VariGAN: Enhancing Image Style Transfer via UNet Generator, Depthwise Discriminator, and LPIPS Loss in Adversarial Learning Framework"__ is accepted by __Sensors__. Congratulations! [[View Paper]](https://www.mdpi.com/1424-8220/25/9/2671) [[View Code]](https://github.com/Gdw040199/VariGAN)
+
+2025.05.22 :fire::fire: The work in collaboration with Assi.Prof Li Wei __"DaptDiffusion: Enhancing Pixel-Level Interactive Editing with Dense-UNet and Adam Point Update in Diffusion Models"__ is accepted by __Applied Intelligence__. [[View Paper]]() [[View Code]](https://github.com/Gdw040199/DaptDiffusion)
+
 
 Site-wide configuration
 ------
