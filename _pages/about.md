@@ -17,11 +17,11 @@ My work during my undergraduate years benefited from the guidance and assistance
 
 News!
 ======
-2025.01.23 :fire::fire: Our work __"ClimaWeather: Enhancing Degraded Image Restoration by Selective Kernel Attention and Local Enhance Feed Forward Block via Transformer"__ is published in IEEE Xplore! [[View Paper]](https://ieeexplore.ieee.org/document/10846015/authors#authors)
+2025.05.22 :fire::fire: The work in collaboration with Assi.Prof Li Wei __"DaptDiffusion: Enhancing Pixel-Level Interactive Editing with Dense-UNet and Adam Point Update in Diffusion Models"__ is accepted by __Applied Intelligence__. [[View Paper]]() [[View Code]](https://github.com/Gdw040199/DaptDiffusion)
 
 2025.04.22 :fire::fire: The work guided by Asso.Prof Zhou Hang __"VariGAN: Enhancing Image Style Transfer via UNet Generator, Depthwise Discriminator, and LPIPS Loss in Adversarial Learning Framework"__ is accepted by __Sensors__. Congratulations! [[View Paper]](https://www.mdpi.com/1424-8220/25/9/2671) [[View Code]](https://github.com/Gdw040199/VariGAN)
 
-2025.05.22 :fire::fire: The work in collaboration with Assi.Prof Li Wei __"DaptDiffusion: Enhancing Pixel-Level Interactive Editing with Dense-UNet and Adam Point Update in Diffusion Models"__ is accepted by __Applied Intelligence__. [[View Paper]]() [[View Code]](https://github.com/Gdw040199/DaptDiffusion)
+2025.01.23 :fire::fire: Our work __"ClimaWeather: Enhancing Degraded Image Restoration by Selective Kernel Attention and Local Enhance Feed Forward Block via Transformer"__ is published in IEEE Xplore! [[View Paper]](https://ieeexplore.ieee.org/document/10846015/authors#authors)
 
 
 Site-wide configuration
