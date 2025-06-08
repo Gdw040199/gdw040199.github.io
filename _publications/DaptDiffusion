@@ -1,0 +1,15 @@
+---
+title: "DaptDiffusion: Enhancing Pixel-Level Interactive Editing with Dense-UNet and Adam Point Update in Diffusion Models"
+collection: publications
+category: manuscripts
+permalink: /publication/DaptDiffusion
+excerpt: 'In recent years, there has been a substantial amount of projects focused on the difficult task of editing images in a way that is both accurate and manageable. In image editing, pixel-level interactive editing is one of the research directions. A typical paradigm for interactive editing is proposed by the pointbased editing framework that is represented by DragGAN. In more recent times, the integration of drag operations and interactive editing, along with the generative abilities of diffusion models, has resulted in the development of even more superior solutions [2]. The generation impact of this strategy, on the other hand, continues to be plagued by problems of low editing efficiency and low resilience of the procedure. The purpose of this work was to propose a new technique called DaptDiffusion, which
+aims to enhance the process of editing latent space based on diffusion model by introducing two extra strategies. 1) a Dense-UNet latent space feature network, and 2) a point update approach that was inspired by Adam. In addition to enhancing the editing efficiency and robustness of the approach, this method also improves the semantic and information transmission capabilities of the latent space feature network. We conduct experiments to illustrate the high quality and high usefulness of DaptDiffusion in many different circumstances. The graphic abstract can be shown in Figure 1. Accessible source code can be found at the following location: https://github.com/Gdw040199/DaptDiffusion'
+date: 2025-05-22
+venue: 'Applied Intelligence'
+paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+Codeurl: 'https://github.com/Gdw040199/DaptDiffusion'
+citation: 'Coming Soon'
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
