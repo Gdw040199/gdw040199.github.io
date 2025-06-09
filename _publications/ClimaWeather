@@ -2,7 +2,7 @@
 title: "ClimaWeather: Enhancing Degraded Image Restoration by Selective Kernel Attention and Local Enhance Feed Forward Block via Transformer"
 collection: publications
 category: conferences
-permalink: /publication/ClimaWeather
+permalink: https://ieeexplore.ieee.org/document/10846015
 excerpt: 'Efficient and high-quality restoration of degraded images is a challenging task that has attracted much attention in recent years. Image restoration network based on Transformer provides a standard paradigm for network training process. Recently, better multi-scene image restoration methods have been developed based on Multi-head attention mechanism and larger receptive field. However, the restoration quality is still affected by the low robustness of the method. In this study, we introduce ClimaWeather, which enhances the Transformer block’s feature extraction by incorporating an efficient local feature extraction network, Local Enhance Feed Forward (LEFF) Block, and Select Kernel (SK) attention block. This method reduces the loss, improves the efficiency of feature extraction and the robustness of the model. We have demonstrated the superior performance of ClimaWeather through experiments.'
 date: 2025-01-23
 venue: '2024 IEEE 17th International Conference on Signal Processing (ICSP)'
