@@ -26,4 +26,4 @@ News!
 
 Acknowledgment
 ------
-Here, I also want to express my gratitude to the classmates who completed the projects with me. They are __Lin Xinping__[Email](22721018@bjtu.edu.cn) and __Zhang Haoyi__[Email](22721074@bjtu.edu.cn) from the School of Electronic Information Engineering of Beijing Jiaotong University, as well as __Wu Yemeng__[Email](22722018@bjtu.edu.cn) from Computer Science and Technology. In addition, I would like to thank the provider of the avatar on this page, my girlfriend __Liu Yitong__. She is my inexhaustible motivation on the way forward.
+Here, I also want to express my gratitude to the classmates who completed the projects with me. They are __Lin Xinping__ [[Email]](22721018@bjtu.edu.cn) and __Zhang Haoyi__ [[Email]](22721074@bjtu.edu.cn) from the School of Electronic Information Engineering of Beijing Jiaotong University, as well as __Wu Yemeng__ [[Email]](22722018@bjtu.edu.cn) from Computer Science and Technology. In addition, I would like to thank the provider of the avatar on this page, my girlfriend __Liu Yitong__. She is my inexhaustible motivation on the way forward.
