@@ -7,7 +7,7 @@ excerpt: 'In recent years, there has been a substantial amount of projects focus
 aims to enhance the process of editing latent space based on diffusion model by introducing two extra strategies. 1) a Dense-UNet latent space feature network, and 2) a point update approach that was inspired by Adam. In addition to enhancing the editing efficiency and robustness of the approach, this method also improves the semantic and information transmission capabilities of the latent space feature network. We conduct experiments to illustrate the high quality and high usefulness of DaptDiffusion in many different circumstances. The graphic abstract can be shown in Figure 1. Accessible source code can be found at the following location: https://github.com/Gdw040199/DaptDiffusion'
 date: 2025-05-22
 venue: 'Applied Intelligence'
-paperurl: 'http://academicpages.github.io/files/DaptDiffusion.pdf'
+paperurl: 'http://gdw040199.github.io/files/DaptDiffusion.pdf'
 Codeurl: 'https://github.com/Gdw040199/DaptDiffusion'
 citation: 'Guan, D., Li, W. DaptDiffusion: Enhancing pixel-level interactive editing with dense-UNet and Adam point update in diffusion models. Appl Intell 55, 797 (2025). https://doi.org/10.1007/s10489-025-06673-1'
 ---
