@@ -8,3 +8,4 @@
 # 💻 Internships
 
 # 😍 Acknowledgement
+In particular, I would like to express my gratitude to the person who provided the profile picture for this page, my girlfriend Yitong Liu. She is the inexhaustible motivation for me on my journey forward.
