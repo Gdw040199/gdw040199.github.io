@@ -8,7 +8,7 @@
 [FlowCoMotion: Text-to-Motion Generation via Token-Latent Flow Modeling](https://arxiv.org/abs/2604.11083) \\
 **Dawei Guan**, Di Yang, Chengjie Jin and Jiangtao Wang
 
-[Code (Coming Soon!)](https://flowcomotion.github.io/)|[Arxiv](https://arxiv.org/abs/2604.11083)|[Project Page](https://flowcomotion.github.io/)
+[**Code (Coming Soon!)**](https://flowcomotion.github.io/)[**Arxiv**](https://arxiv.org/abs/2604.11083)[**Project Page**](https://flowcomotion.github.io/)
 
 </div>
 </div>
