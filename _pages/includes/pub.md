@@ -1,5 +1,15 @@
 # 📝 Publications 
 
+## 🏌️‍♂️ Motion Generation
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/flowcomotion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FlowCoMotion: Text-to-Motion Generation via Token-Latent Flow Modeling](https://arxiv.org/abs/2604.11083)
+**Dawei Guan**, Di Yang, Chengjie Jin and Jiangtao Wang
+
+[Code (Coming Soon!)](https://flowcomotion.github.io/)|[Arxiv](https://arxiv.org/abs/2604.11083)|[Project Page](https://flowcomotion.github.io/)
+
 ## 🪐 Image Editing
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">APIN 2025</div><img src='images/DaptDiffusion.png' alt="sym" width="100%"></div></div>
