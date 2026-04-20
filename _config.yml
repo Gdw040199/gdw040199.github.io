@@ -11,8 +11,8 @@ description              : "Focusing on 3D/4D Generation like Motion & Vedio."
 repository               : "Gdw040199/gdw040199.github.io"
 google_scholar_stats_use_cdn : true
 
-# google analytics
-google_analytics_id      : MywwWW0AAAAJ
+# google analytics (填写 GA4 的 G-XXXXXXXXXX；不需要则留空)
+google_analytics_id      : ""
 
 # SEO Related
 #
