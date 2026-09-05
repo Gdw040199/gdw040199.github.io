@@ -3,6 +3,7 @@ name_zh: "关达伟"
 title: "Dawei Guan | Academic Homepage"
 description: "Dawei Guan is a master's student at USTC, working on motion generation, multimodal generative models, and 3D scene reconstruction and editing."
 url: "https://gdw040199.github.io"
+repository: "Gdw040199/gdw040199.github.io"
 baseurl: ""
 avatar: "/images/citations.jpeg"
 email: "guand3841@gmail.com"
@@ -26,4 +27,9 @@ exclude:
   - scripts
   - dist
   - .openai
-
+  - google_scholar_crawler
+  - github_myprofile_updater
+  - _pages
+  - assets
+  - docs
+  - run_server.sh

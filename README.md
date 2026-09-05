@@ -1,6 +1,6 @@
 # Dawei Guan's academic homepage
 
-基于 [Yiming Huang 的参考站源码](https://github.com/yh2371/yh2371.github.io) 制作的 Jekyll 个人主页。保留白底、蓝色链接、右侧头像和图文论文列表，内容来自现有的 `Gdw040199/gdw040199.github.io`。
+基于 [Yiming Huang 的参考站源码](https://github.com/yh2371/yh2371.github.io) 制作的 Jekyll 个人主页，发布于 [gdw040199.github.io](https://gdw040199.github.io/)。页面依次为个人介绍、Research、News、Education 和 Acknowledgement。
 
 ## 修改内容
 
@@ -14,12 +14,15 @@
 | 致谢、页面结构 | `_layouts/default.html` |
 | 字体、颜色、间距、手机端排版 | `style.scss` |
 | 头像和论文配图 | `images/` |
+| 本地 Lato 字体与许可 | `fonts/lato/` |
 
-论文按 `_data/publications.yml` 中的顺序显示。新增论文时复制一条记录，更新标题、作者、会议或期刊、图片和链接即可。作者字段用 `<strong>Dawei Guan</strong>` 加粗自己的名字。
+论文按 `_data/publications.yml` 中的顺序显示。新增论文时复制一条记录，更新标题、作者、会议或期刊、图片、链接和 `summary` 简介即可。简介建议用一到两句话概括论文的方法与作用，并根据论文原文撰写。作者字段用 `<strong>Dawei Guan</strong>` 标出自己的名字。
+
+英文使用本地托管的 Lato，字号和字重在 `style.scss` 中统一控制。头像在悬停或键盘聚焦时会显示招呼；系统开启“减少动态效果”时，动画会自动关闭。
 
 ## 本地预览
 
-当前工作目录已安装项目依赖，可直接运行：
+本机已安装项目依赖时，可直接运行：
 
 ```sh
 ./scripts/preview.sh
@@ -38,9 +41,9 @@ bundle exec jekyll serve --host 127.0.0.1
 
 本项目保留 Jekyll，可继续使用 `https://gdw040199.github.io/`。
 
-将本项目文件作为 `Gdw040199/gdw040199.github.io` 的新根目录内容，替换旧版 Jekyll 模板文件，避免旧版 `_pages` 和 `_layouts` 混入。GitHub 仓库的 **Settings → Pages** 使用 **Deploy from a branch**，选择对应分支的根目录 `/ (root)`。
+GitHub 仓库的 **Settings → Pages** 使用 **Deploy from a branch**，选择 `main` 分支的根目录 `/ (root)`。更新内容并推送到 `main` 后，GitHub Pages 自动重新发布。
 
-不要上传本地的 `vendor/`、`_site/` 或 `dist/`；它们已加入 `.gitignore`。本地制作和预览不会修改线上仓库。
+不要上传本地的 `vendor/`、`_site/` 或 `dist/`；它们已加入 `.gitignore`。
 
 生成静态文件：
 

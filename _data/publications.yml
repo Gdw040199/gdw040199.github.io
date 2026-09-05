@@ -7,6 +7,8 @@
   image_height: 1652
   image_alt: "Overview of the FlowCoMotion text-to-motion generation framework"
   paper: "https://arxiv.org/abs/2604.11083"
+  summary: >-
+    We couple <strong>discrete motion tokens with continuous latents</strong> to capture both high-level semantics and fine motion details. A text-conditioned flow model then generates human motion from this unified representation.
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2604.11083"
@@ -14,7 +16,7 @@
       url: "https://flowcomotion.github.io/"
   code_status: "Code coming soon"
 
-- title: "DaptDiffusion: Enhancing Pixel-level Interactive Editing with Dense-Unet and Adam Point Update in Diffusion Models"
+- title: "DaptDiffusion: Enhancing Pixel-level Interactive Editing with Dense-UNet and Adam Point Update in Diffusion Models"
   authors: "<strong>Dawei Guan</strong> and Wei Li"
   venue: "Applied Intelligence, 2025"
   topic: "Image Editing"
@@ -23,6 +25,8 @@
   image_height: 1086
   image_alt: "Overview of the DaptDiffusion interactive image editing framework"
   paper: "https://link.springer.com/article/10.1007/s10489-025-06673-1"
+  summary: >-
+    DaptDiffusion makes <strong>drag-based image editing</strong> more efficient and robust by combining a Dense-UNet feature network with an Adam-inspired point update rule in the latent space of diffusion models.
   links:
     - label: paper
       url: "https://link.springer.com/article/10.1007/s10489-025-06673-1"
@@ -38,6 +42,8 @@
   image_height: 2345
   image_alt: "Overview of the VariGAN image style transfer framework"
   paper: "https://www.mdpi.com/1424-8220/25/9/2671"
+  summary: >-
+    VariGAN improves <strong>unpaired image style transfer</strong> with an attention-enhanced UNet generator, a depthwise discriminator, and LPIPS perceptual loss, refining both the training process and the visual quality of transferred images.
   links:
     - label: paper
       url: "https://www.mdpi.com/1424-8220/25/9/2671"

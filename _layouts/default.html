@@ -8,10 +8,9 @@
   <meta name="author" content="{{ site.name | escape }}">
   <meta name="description" content="{{ site.description | escape }}">
   <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <link rel="icon" type="image/jpeg" href="{{ site.avatar | relative_url }}">
+  <link rel="preload" href="{{ '/fonts/lato/Lato-Regular.ttf' | relative_url }}" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&display=swap" rel="stylesheet">
   <meta name="color-scheme" content="light">
 </head>
 <body>
@@ -33,20 +32,12 @@
           <td class="portrait-cell">
             <a class="portrait-link" href="{{ site.avatar | relative_url }}" aria-label="View Dawei Guan's profile image">
               <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Dawei Guan's profile illustration" width="300" height="300" fetchpriority="high">
+              <span class="portrait-hello" aria-hidden="true">Hi! <span class="wave">👋</span></span>
             </a>
           </td>
         </tr>
       </tbody>
     </table>
-
-    <section class="text-section" aria-labelledby="news-heading">
-      <h2 id="news-heading">News</h2>
-      <ul class="news-list">
-        {% for item in site.data.news %}
-        <li><span class="news-date">{{ item.date }}</span><span>{{ item.text }}</span></li>
-        {% endfor %}
-      </ul>
-    </section>
 
     <section id="research" aria-labelledby="research-heading">
       <div class="section-heading"><h2 id="research-heading">Research</h2></div>
@@ -66,11 +57,21 @@
               <p class="paper-links">
                 {% for link in post.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> / </span>{% endunless %}{% endfor %}{% if post.code_status %}<span aria-hidden="true"> / </span><span class="code-status">{{ post.code_status }}</span>{% endif %}
               </p>
+              {% if post.summary %}<p class="paper-summary">{{ post.summary }}</p>{% endif %}
             </td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
+    </section>
+
+    <section class="text-section" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <ul class="news-list">
+        {% for item in site.data.news %}
+        <li><span class="news-date">{{ item.date }}</span><span>{{ item.text }}</span></li>
+        {% endfor %}
+      </ul>
     </section>
 
     <section class="text-section" aria-labelledby="education-heading">
