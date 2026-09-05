@@ -1,0 +1,45 @@
+- title: "FlowCoMotion: Text-to-Motion Generation via Token-Latent Flow Modeling"
+  authors: "<strong>Dawei Guan</strong>, Di Yang, Chengjie Jin, and Jiangtao Wang"
+  venue: "arXiv, 2026"
+  topic: "Motion Generation"
+  image: "/images/flowcomotion.png"
+  image_width: 4426
+  image_height: 1652
+  image_alt: "Overview of the FlowCoMotion text-to-motion generation framework"
+  paper: "https://arxiv.org/abs/2604.11083"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2604.11083"
+    - label: project page
+      url: "https://flowcomotion.github.io/"
+  code_status: "Code coming soon"
+
+- title: "DaptDiffusion: Enhancing Pixel-level Interactive Editing with Dense-Unet and Adam Point Update in Diffusion Models"
+  authors: "<strong>Dawei Guan</strong> and Wei Li"
+  venue: "Applied Intelligence, 2025"
+  topic: "Image Editing"
+  image: "/images/DaptDiffusion.png"
+  image_width: 2548
+  image_height: 1086
+  image_alt: "Overview of the DaptDiffusion interactive image editing framework"
+  paper: "https://link.springer.com/article/10.1007/s10489-025-06673-1"
+  links:
+    - label: paper
+      url: "https://link.springer.com/article/10.1007/s10489-025-06673-1"
+    - label: code
+      url: "https://github.com/Gdw040199/DaptDiffusion"
+
+- title: "VariGAN: Enhancing Image Style Transfer via UNet Generator, Depthwise Discriminator, and LPIPS Loss in Adversarial Learning Framework"
+  authors: "<strong>Dawei Guan</strong>, Xinping Lin, Haoyi Zhang, and Hang Zhou"
+  venue: "Sensors, 2025"
+  topic: "Image Editing"
+  image: "/images/VariGAN.jpg"
+  image_width: 2764
+  image_height: 2345
+  image_alt: "Overview of the VariGAN image style transfer framework"
+  paper: "https://www.mdpi.com/1424-8220/25/9/2671"
+  links:
+    - label: paper
+      url: "https://www.mdpi.com/1424-8220/25/9/2671"
+    - label: code
+      url: "https://github.com/Gdw040199/VariGAN"

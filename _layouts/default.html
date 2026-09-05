@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!-- Adapted from yh2371/yh2371.github.io; see TEMPLATE.md. -->
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | escape }}</title>
+  <meta name="author" content="{{ site.name | escape }}">
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&display=swap" rel="stylesheet">
+  <meta name="color-scheme" content="light">
+</head>
+<body>
+  <a class="skip-link" href="#research">Skip to research</a>
+  <main class="page">
+    <table class="layout-table intro-table" role="presentation">
+      <tbody>
+        <tr>
+          <td class="intro-copy">
+            <h1>{{ site.name }} <span class="chinese-name" lang="zh">{{ site.name_zh }}</span></h1>
+            {% include about.html %}
+            <nav class="profile-links" aria-label="Contact and academic profiles">
+              <a href="mailto:{{ site.email }}">Email</a><span aria-hidden="true"> / </span>
+              <a href="{{ site.github }}">GitHub</a><span aria-hidden="true"> / </span>
+              <a href="{{ site.scholar }}">Google Scholar</a><span aria-hidden="true"> / </span>
+              <a href="{{ site.orcid }}">ORCID</a>
+            </nav>
+          </td>
+          <td class="portrait-cell">
+            <a class="portrait-link" href="{{ site.avatar | relative_url }}" aria-label="View Dawei Guan's profile image">
+              <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Dawei Guan's profile illustration" width="300" height="300" fetchpriority="high">
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section class="text-section" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <ul class="news-list">
+        {% for item in site.data.news %}
+        <li><span class="news-date">{{ item.date }}</span><span>{{ item.text }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="research" aria-labelledby="research-heading">
+      <div class="section-heading"><h2 id="research-heading">Research</h2></div>
+      <table class="layout-table publications" role="presentation">
+        <tbody>
+          {% for post in site.data.publications %}
+          <tr class="publication">
+            <td class="paper-image-cell">
+              <a href="{{ post.paper }}" aria-label="Read {{ post.title | escape }}">
+                <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | escape }}" width="{{ post.image_width }}" height="{{ post.image_height }}" loading="lazy" decoding="async">
+              </a>
+            </td>
+            <td class="paper-copy">
+              <h3><a href="{{ post.paper }}">{{ post.title }}</a></h3>
+              <p class="authors">{{ post.authors }}</p>
+              <p class="venue"><em>{{ post.venue }}</em></p>
+              <p class="paper-links">
+                {% for link in post.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> / </span>{% endunless %}{% endfor %}{% if post.code_status %}<span aria-hidden="true"> / </span><span class="code-status">{{ post.code_status }}</span>{% endif %}
+              </p>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="text-section" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <ul class="education-list">
+        {% for item in site.data.education %}
+        <li>
+          <span class="education-period">{{ item.period }}</span>
+          <div><strong>{{ item.institution }}</strong><br>{% if item.degree %}{{ item.degree }} · {% endif %}{{ item.location }}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="text-section" aria-labelledby="acknowledgement-heading">
+      <h2 id="acknowledgement-heading">Acknowledgement</h2>
+      <p>I'm especially grateful to my girlfriend, Yitong Liu, who provided the profile picture for this page and is a constant source of motivation on my journey.</p>
+    </section>
+
+    <footer>
+      <p>Template adapted from <a href="https://yh2371.github.io/">Yiming Huang</a>, <a href="https://jonbarron.info/">Jon Barron</a>, and <a href="https://leonidk.com/">Leonid Keselman</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
