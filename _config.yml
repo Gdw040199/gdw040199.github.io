@@ -21,6 +21,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - LICENSE-acad-homepage
   - README.md
   - TEMPLATE.md
   - vendor
