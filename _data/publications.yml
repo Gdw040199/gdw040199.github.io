@@ -13,7 +13,7 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2604.11083"
     - label: project page
-      url: "https://flowcomotion.github.io/"
+      url: "https://visdyn.github.io/flowcomotion/"
   code_status: "Code coming soon"
 
 - title: "DaptDiffusion: Enhancing Pixel-level Interactive Editing with Dense-UNet and Adam Point Update in Diffusion Models"
