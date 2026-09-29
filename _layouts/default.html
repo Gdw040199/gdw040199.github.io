@@ -47,7 +47,7 @@
           <tr class="publication">
             <td class="paper-image-cell">
               {% if post.video %}
-              <video class="paper-teaser" width="{{ post.video_width }}" height="{{ post.video_height }}" controls muted playsinline preload="none" poster="{{ post.video_poster | escape }}" aria-label="{{ post.video_alt | escape }}">
+              <video class="paper-teaser" width="{{ post.video_width }}" height="{{ post.video_height }}" controls autoplay loop muted playsinline preload="metadata" poster="{{ post.video_poster | escape }}" aria-label="{{ post.video_alt | escape }}">
                 <source src="{{ post.video | escape }}" type="video/mp4">
               </video>
               {% else %}
