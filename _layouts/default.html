@@ -46,9 +46,15 @@
           {% for post in site.data.publications %}
           <tr class="publication">
             <td class="paper-image-cell">
+              {% if post.video %}
+              <video class="paper-teaser" width="{{ post.video_width }}" height="{{ post.video_height }}" controls muted playsinline preload="none" poster="{{ post.video_poster | escape }}" aria-label="{{ post.video_alt | escape }}">
+                <source src="{{ post.video | escape }}" type="video/mp4">
+              </video>
+              {% else %}
               <a href="{{ post.paper }}" aria-label="Read {{ post.title | escape }}">
                 <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | escape }}" width="{{ post.image_width }}" height="{{ post.image_height }}" loading="lazy" decoding="async">
               </a>
+              {% endif %}
             </td>
             <td class="paper-copy">
               <h3><a href="{{ post.paper }}">{{ post.title }}</a></h3>

@@ -1,3 +1,21 @@
+- title: "Harnessing Coupled Stream Completion for Human-Object Interaction Modeling"
+  authors: "<strong>Dawei Guan</strong>, Di Yang, and Jiangtao Wang"
+  venue: "arXiv, 2026"
+  topic: "Human-Object Interaction"
+  video: "https://visdyn.github.io/TRACE/static/media/hero_pan_1080p.mp4"
+  video_poster: "https://visdyn.github.io/TRACE/static/media/hero-poster.png"
+  video_width: 1920
+  video_height: 1080
+  video_alt: "TRACE teaser showing text-guided human-object interaction generation"
+  paper: "https://arxiv.org/abs/2609.32551"
+  summary: >-
+    TRACE keeps body, object, and hand motion in <strong>separate latent streams</strong> while coupling their updates to maintain coherent interactions. The same model supports completion of any missing stream and text-based interaction understanding.
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2609.32551"
+    - label: project page
+      url: "https://visdyn.github.io/TRACE/"
+
 - title: "FlowCoMotion: Text-to-Motion Generation via Token-Latent Flow Modeling"
   authors: "<strong>Dawei Guan</strong>, Di Yang, Chengjie Jin, and Jiangtao Wang"
   venue: "arXiv, 2026"

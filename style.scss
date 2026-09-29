@@ -76,7 +76,8 @@ h3 { font-size: .875rem; line-height: 1.3; font-weight: 700; margin: 0; }
 .news-date { font-variant-numeric: tabular-nums; font-style: italic; }
 .paper-image-cell { padding: 1.5rem 2.5%; width: 25%; min-width: 120px; vertical-align: middle; }
 .paper-image-cell a { display: block; }
-.paper-image-cell img { display: block; width: 100%; height: auto; transition: transform .2s ease; }
+.paper-image-cell img, .paper-image-cell video { display: block; width: 100%; height: auto; }
+.paper-image-cell img { transition: transform .2s ease; }
 .paper-copy { padding: 1.5rem 2.5%; width: 75%; vertical-align: middle; }
 .paper-copy h3 a { color: inherit; }
 .paper-copy h3 a:hover, .paper-copy h3 a:focus { color: $link; }
@@ -125,7 +126,7 @@ footer { padding: 1.5rem 2.5%; text-align: center; font-size: .8125rem; color: #
   .publications, .publications tbody { display: block; }
   .publication { display: block; margin-bottom: 1.75rem; }
   .paper-image-cell { display: block; width: 100%; padding: .5rem 0 .75rem; }
-  .paper-image-cell img { width: 100%; max-width: 320px; max-height: 220px; object-fit: contain; object-position: left center; }
+  .paper-image-cell img, .paper-image-cell video { width: 100%; max-width: 320px; max-height: 220px; object-fit: contain; object-position: left center; }
   .paper-copy { display: block; width: 100%; padding: 0; }
   .education-list li { grid-template-columns: 1fr; gap: .15rem; }
   .news-list li { grid-template-columns: 4.75rem 1fr; gap: .5rem; }
