@@ -9,3 +9,13 @@ vendor/
 .env
 .env.*
 !.env.example
+/output/pdf/*_draft.pdf
+/Resume_CV_/*.pdf
+/Resume_CV_/*.aux
+/Resume_CV_/*.log
+/Resume_CV_/*.out
+/Resume_CV_/*.fdb_latexmk
+/Resume_CV_/*.fls
+/Resume_CV_/sections/experience.tex
+/Resume_CV_/sections/skills.tex
+!/Resume_CV_/sections/skills.tex
